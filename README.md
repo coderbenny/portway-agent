@@ -1,6 +1,6 @@
 # portway-agent
 
-The local agent binary for [Portway](https://portway.online) — connects a
+The local agent binary for [Portway](https://portway.online). It connects a
 service running on your own machine to a tunnel you created on the
 dashboard.
 
@@ -24,9 +24,9 @@ detail page → Connect), then:
 portway-agent -relay=agent.portway.online:9443 -tls=true -token=<token>
 ```
 
-The agent dials out to Portway's relay, authenticates with the token, and
-forwards traffic to whatever `local_target` the tunnel was configured with
-— nothing needs to be typed in twice.
+The agent dials out to Portway's relay, authenticates with the token and
+forwards traffic to whatever `local_target` the tunnel was configured with.
+Nothing needs to be typed in twice.
 
 ## Flags
 
